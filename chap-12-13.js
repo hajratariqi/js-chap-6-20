@@ -18,3 +18,14 @@ if(num1 === num2){
     document.write(num2 , 'are Greater')
 }
 
+// question 3
+var checkNumValue = prompt('Enter a positive, negative or zero')
+if(checkNumValue == '-'){
+    document.write('the value is negative')
+}else if(checkNumValue == '+'){
+    document.write('the value is possitive')
+}else if(checkNumValue == '.'){
+    document.write('the value is Faraction')
+}else{
+    document.write('this is hole number')
+}
